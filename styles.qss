@@ -1,0 +1,26 @@
+.QGraphicsView {
+  background-color: rgb(76, 77, 82);
+  border: 0px solid red;
+  border-radius: 4px;
+}
+
+.MainWindow, .QMessageBox {
+  background-color: rgb(58, 59, 61);
+}
+
+.QPushButton {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #a8a8a8;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.QPushButton:disabled {
+  color: gray;
+  border-color: gray;
+}
+
+QLabel {
+  color: white;
+}
